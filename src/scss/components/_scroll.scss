@@ -1,0 +1,81 @@
+.scroll-features{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    z-index: 999;
+    white-space: nowrap;
+    .svg-circle{
+        border-radius: 50%;
+        width:60px;
+        position: absolute;
+        svg{
+            circle{
+                fill: transparent;
+                stroke-width: 2px;
+                stroke: #000;
+                stroke-dasharray: 126;
+                stroke-dashoffset: 126;
+                transform: translateY(50px) rotate(-90deg);
+            }
+        }
+    }
+    .scroll-btn{
+        position: absolute;
+        width: 60px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        >div{
+            position: relative;
+            width: 100%;
+            .count{
+                font-size: 1.3rem;
+                position: absolute;
+                width: 100%;
+                transition: .25s ease-in-out;
+                opacity: .8;
+                font-weight: 500;
+            }
+            .up-icon{
+                position: relative;
+                top: -0.25rem;
+                transform: translateY(1em);
+                transition: .25s ease-in-out;
+                opacity: 0;
+                visibility: none;
+                i{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    &:hover{
+        cursor: pointer;
+        .scroll-btn >div{
+            .count{
+                opacity: 0;
+                visibility: none;
+                transition: .25s ease-in-out;
+                transform: translateY(1em);
+            }
+            .up-icon{
+                transform: translateY(0em);
+                transition: .25s ease-in-out;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        .svg-circle{
+            svg{
+                circle{
+                    stroke: var(--accent);
+                }
+            }
+        }
+    }
+}
+.left-ani{
+    transform: translateX(0px);
+    transition: .25s;
+}

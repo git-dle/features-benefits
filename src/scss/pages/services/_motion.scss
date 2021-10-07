@@ -1,0 +1,27 @@
+.motion{
+    >.hero{
+        >.hero-banner{
+            background-image: url('./../../../storage/hero/fes7-2.jpg');
+            background-position-y: -30em;
+            >.overlay{
+            }
+        }
+    }
+    >.features-benefits >.inner-container{
+        padding: 10em 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .column{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            >.feat-benef{
+                margin-bottom: 0;
+                > .description{
+                    min-height: 15rem;
+                }
+            }
+        }
+    }
+}

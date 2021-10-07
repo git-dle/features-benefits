@@ -1,0 +1,23 @@
+.branding{
+    >.hero{
+        >.hero-banner{
+            background-image: url('./../../../storage/hero/fes7-2.jpg');
+            background-position-y: -30em;
+            >.overlay{
+            }
+        }
+    }
+    >.features-benefits >.inner-container{
+        padding: 10em 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .column{
+            width: 100%;
+            display: flex;
+            >.feat-benef{
+                margin-bottom: 0;
+            }
+        }
+    }
+}

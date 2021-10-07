@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Boxicons';
+    src: url("../fonts/boxicons.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iconsax';
+    src: url("../fonts/iconsax.woff") format("woff"),
+        url("../fonts/iconsax.tff") format("tff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ionicons';
+    src: url("../fonts/ionicons.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Linearicons-Free';
+    src: url("/dist/assets/fonts/Linearicons-Free.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'roboto';
+    -webkit-font-smoothing: antialiased !important;
+    -webkit-font-feature-settings: "kern" 1;
+    // white-space: nowrap;
+}
+html{
+    font-size: 62.5%;
+}

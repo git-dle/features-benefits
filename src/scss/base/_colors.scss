@@ -1,0 +1,27 @@
+$black              :#000000;
+$dark               :#101113;
+
+$white              :#ffffff;
+$light              :#f4f7f8;
+
+$accent             :#0057ff;
+
+:root{
+
+    --bg            :#ffffff;
+    --inv-bg        :#101113; 
+    --primary       :#000000;  
+    --mute          :#3c3c3c;
+    --accent        :#0057ff;
+    
+}
+.dark-mode{
+    
+    --bg            :#101113;
+    --inv-bg        :#ffffff; 
+    --primary       :#f4f7f8;  
+    --mute          :#afafaf;
+    --accent        :#0057ff;
+
+
+}

@@ -1,0 +1,15 @@
+.website{
+    >.hero{
+        >.hero-banner{
+            background-image: url('./../../../storage/hero/landing-bg.jpg');
+            background-position-x: 300px;
+            >.overlay{
+            }
+        }
+    }
+    >.features-benefits >.inner-container{
+        .column{
+            width: 30%;
+        }
+    }
+}
